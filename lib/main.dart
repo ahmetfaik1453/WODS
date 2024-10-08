@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 // Hive Local Database
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:hive/hive.dart';
 // helper
 import 'RouteGenerator.dart';
 // State

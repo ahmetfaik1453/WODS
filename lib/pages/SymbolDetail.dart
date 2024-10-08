@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 // http
-import 'package:http/http.dart' as http;
 // common_widget
 import 'package:wods/common_widgets/IntervalSelector.dart';
 // State
