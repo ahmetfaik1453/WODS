@@ -41,10 +41,10 @@ void main() async {
               indicatorColor: Colors.grey,
               elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ButtonStyle(
-                  elevation: MaterialStateProperty.all<double>(0),
-                  foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
-                  backgroundColor: MaterialStateProperty.all<Color>(Color.fromRGBO(240, 154, 105, 1)),
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  elevation: WidgetStateProperty.all<double>(0),
+                  foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
+                  backgroundColor: WidgetStateProperty.all<Color>(Color.fromRGBO(240, 154, 105, 1)),
+                  shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
                   ),
                 ),
@@ -67,10 +67,10 @@ void main() async {
               indicatorColor: Colors.grey,
               elevatedButtonTheme: ElevatedButtonThemeData(
                 style: ButtonStyle(
-                  elevation: MaterialStateProperty.all<double>(0),
-                  foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
-                  backgroundColor: MaterialStateProperty.all<Color>(Color.fromRGBO(240, 154, 105, 1)),
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  elevation: WidgetStateProperty.all<double>(0),
+                  foregroundColor: WidgetStateProperty.all<Color>(Colors.black),
+                  backgroundColor: WidgetStateProperty.all<Color>(Color.fromRGBO(240, 154, 105, 1)),
+                  shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
                   ),
                 ),

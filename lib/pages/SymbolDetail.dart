@@ -79,7 +79,7 @@ class _SymbolDetailState extends State<SymbolDetail> {
                     () {}),
                 Container(
                   height: 300,
-                  child: Text('Chart', style: Theme.of(context).textTheme.headline3),
+                  child: Text('Chart', style: Theme.of(context).textTheme.displaySmall),
                   alignment: Alignment.center,
                 ),
               ],

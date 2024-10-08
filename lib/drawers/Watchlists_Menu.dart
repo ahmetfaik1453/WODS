@@ -275,10 +275,9 @@ class _AddDialogState extends State<AddDialog> {
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(30.0))),
             title: Text("Create ${widget.listType.substring(0, widget.listType.length - 1)}"),
             content: TextFormField(
-              autofocus: true,
+              autovalidateMode: AutovalidateMode.always, autofocus: true,
               controller: _controller,
               maxLength: 24,
-              autovalidate: true,
               validator: (String? value) {
                 return (value != null && widget.list.contains(value)) ? 'This name is used by an existing list' : null;
               },
@@ -293,14 +292,14 @@ class _AddDialogState extends State<AddDialog> {
             actions: <Widget>[
               TextButton(
                 child: Text('CANCEL'),
-                style: TextButton.styleFrom(primary: Color.fromRGBO(240, 154, 105, 1)),
+                style: TextButton.styleFrom(foregroundColor: Color.fromRGBO(240, 154, 105, 1)),
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
               ),
               TextButton(
                 child: Text('SAVE'),
-                style: TextButton.styleFrom(primary: Color.fromRGBO(240, 154, 105, 1)),
+                style: TextButton.styleFrom(foregroundColor: Color.fromRGBO(240, 154, 105, 1)),
                 onPressed: () {
                   if (_text.isNotEmpty && !widget.list.contains(_text)) {
                     widget.onSubmitted(_text);

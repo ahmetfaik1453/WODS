@@ -72,7 +72,7 @@ class _SearchSymbolState extends State<SearchSymbol> {
                   ),
                   autofocus: true,
                   controller: _controller,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
               ),
             ),

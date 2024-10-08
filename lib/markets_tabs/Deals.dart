@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 // State
-import 'package:provider/provider.dart';
-import 'package:wods/state/DataHouse.dart';
 // common_widget
 import 'package:wods/common_widgets/IntervalSelector.dart';
 

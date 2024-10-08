@@ -74,8 +74,7 @@ class PostBody extends StatelessWidget {
   Widget _buildButton(IconData icon, {int? count}) {
     return TextButton.icon(
       style: TextButton.styleFrom(
-        primary: Colors.grey,
-        minimumSize: Size.zero,
+        foregroundColor: Colors.grey, minimumSize: Size.zero,
         padding: EdgeInsets.symmetric(vertical: 7),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
       ),

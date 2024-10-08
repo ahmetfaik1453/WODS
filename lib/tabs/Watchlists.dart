@@ -6,8 +6,6 @@ import 'package:wods/state/DataHouse.dart';
 import 'package:wods/common_widgets/IntervalSelector.dart';
 import 'package:wods/common_widgets/QuateListTile.dart';
 // pages
-import 'package:wods/pages/SearchSymbol.dart';
-import 'package:wods/pages/EditWatchlist.dart';
 
 class Watchlists extends StatelessWidget {
   final Widget? appBar;

@@ -170,14 +170,14 @@ class _CreatePostState extends State<CreatePost> {
                       onPressed: () => setState(() {
                             _postMap['trend'] = true;
                           }),
-                      style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.green))),
+                      style: ButtonStyle(backgroundColor: WidgetStateProperty.all<Color>(Colors.green))),
                 ),
                 ElevatedButton(
                     child: Text('Bearish'),
                     onPressed: () => setState(() {
                           _postMap['trend'] = false;
                         }),
-                    style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red))),
+                    style: ButtonStyle(backgroundColor: WidgetStateProperty.all<Color>(Colors.red))),
               ],
             ),
         ],

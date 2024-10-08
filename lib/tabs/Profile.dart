@@ -38,7 +38,7 @@ class _ProfileState extends State<Profile> {
                     children: <Widget>[
                       context.read<PostState>().getAvatar(_box.get('userId', defaultValue: ''), 35),
                       SizedBox(height: 15),
-                      Text('Akshay Pawar Patil', style: Theme.of(context).textTheme.headline6),
+                      Text('Akshay Pawar Patil', style: Theme.of(context).textTheme.titleLarge),
                       SizedBox(height: 15),
                       Row(
                         children: <Widget>[
@@ -47,7 +47,7 @@ class _ProfileState extends State<Profile> {
                             '172M',
                             '100K'
                           ])
-                            Text(i, style: Theme.of(context).textTheme.button),
+                            Text(i, style: Theme.of(context).textTheme.labelLarge),
                         ],
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                       ),
@@ -155,8 +155,7 @@ class _ProfileState extends State<Profile> {
                   children: <Widget>[
                     TextButton.icon(
                       style: TextButton.styleFrom(
-                        alignment: Alignment.centerLeft,
-                        primary: Colors.grey,
+                        foregroundColor: Colors.grey, alignment: Alignment.centerLeft,
                       ),
                       icon: Icon(Icons.thumb_up_outlined),
                       label: Text('7842'),
@@ -164,7 +163,7 @@ class _ProfileState extends State<Profile> {
                     ),
                     TextButton.icon(
                       style: TextButton.styleFrom(
-                        primary: Colors.grey,
+                        foregroundColor: Colors.grey,
                       ),
                       icon: Icon(Icons.loop_outlined),
                       label: Text('478'),
@@ -172,7 +171,7 @@ class _ProfileState extends State<Profile> {
                     ),
                     TextButton.icon(
                       style: TextButton.styleFrom(
-                        primary: Colors.grey,
+                        foregroundColor: Colors.grey,
                       ),
                       icon: Icon(Icons.chat_bubble_outline_outlined),
                       label: Text('742'),
